@@ -94,7 +94,7 @@ pub const RENDEZVOUS_SERVERS: &[&str] = &["remote.keralavisionisp.com"];
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
     Some(key) if !key.is_empty() => key,
-    _ => "FAkFTGnxGzoeeOiGZhZjNko11akXjhaUl5dJq1jQPhA=",
+    _ => "FAkRTunxGzoeeOiGZhZjNko11akXjhaUl5dJq1rOCkz=",
 };
 
 pub const RENDEZVOUS_PORT: i32 = 21116;
